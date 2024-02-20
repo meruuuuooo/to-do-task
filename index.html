@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <main>
+      <img class="logo-img" src="assets/logo.png" />
+      <input type="text" id="input-field" placeholder="Task" />
+      <button id="add-button">ADD</button>
+      <div id="todolist-container"></div>
+    </main>
+    <footer>
+      <div id="status-el">
+        <h3>Status</h3>
+        <ul>
+          <li id="all-el">All :</li>
+          <li id="active-el">Active :</li>
+          <li id="completed-el">Completed :</li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <div class="links">
+          <a href="https://github.com/meruuuuooo" target="_blank">
+            <img src="assets/github-logo.png" alt="blackcat" />
+          </a>
+          <a href="https://t.me/Uremmmm" target="_blank">
+            <img src="assets/telegram.png" alt="" />
+          </a>
+          <a
+            href="https://discord.com/users/855391289461964822"
+            target="_blank"
+          >
+            <img src="assets/discord.png" alt="" />
+          </a>
+          <a href="mailto:Mailem.meldavid@gmail.com">
+            <img src="assets/gmail.png" alt="" />
+          </a>
+          <p>Contact me!</p>
+        </div>
+        <p>Develop by meru</p>
+        <p>&copy; 2024 To-Do-List. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
